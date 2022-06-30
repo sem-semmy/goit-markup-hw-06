@@ -835,7 +835,7 @@ img {
   border: 2px solid var(--accent-color);
 }
 
-#user-check:focus + label span {
+#user-check:focus + .custom-icon-checkbox {
   /* background-color: var(--accent-color); */
   /* border-color: 2px  */
   border: none;
@@ -855,7 +855,7 @@ img {
 /* .modal-check .check-icon:focus {
   fill: #fff;
 } */
-.modal-check:checked + .check-text span {
+.modal-check:checked + .custom-icon-checkbox {
   background-color: var(--accent-color);
   border: none;
 }
